@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* div {
+    border:3px solid red;
+    margin: 20px;
+} */
+.main-wrapper {
+    border: 3px solid blue;
+}
+.nav-holder {
+    border: 3px solid green;
+}
+.nav-title {
+    border: 3px solid yellow;
+}
+.nav-holder nav {
+    display: flex;
+    align-items: center;
+}
+.nav-holder nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 400;
+}
+.nav-title h1 {
+    font-size: 20px;
+    font-weight: 400;
+}
